@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html" class="nav-link">Inicio</a>
+  <a href="sobre-mi.html" class="nav-link">Sobre mí</a>
+  <a href="servicios.html" class="nav-link">Servicios</a>
+  <a href="contacto.html" class="nav-link">Contacto</a>
+</nav>
+<script>
+  document.querySelectorAll('.nav-link').forEach(link => {
+      if(link.href === window.location.href) {
+          link.classList.add('active');
+      }
+  });
+</script>
+
+<header>
+  <h1>Psicología Integral y Acompañamiento Espiritual</h1>
+  <p>Encuentra equilibrio emocional, propósito y bienestar desde un enfoque humano y espiritual.</p>
+  <a href="contacto.html" class="btn">Agenda tu consulta</a>
+  <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773" alt="Psicología Integral">
+</header>
+
+<section>
+  <h2>Servicios</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Terapia Psicológica</h3>
+      <p>Acompañamiento profesional para ansiedad, estrés y crecimiento personal.</p>
+    </div>
+    <div class="card">
+      <h3>Orientación Espiritual</h3>
+      <p>Espacios de reflexión basados en valores, fe y propósito de vida.</p>
+    </div>
+    <div class="card">
+      <h3>Consultoría Integral</h3>
+      <p>Un enfoque completo entre mente, emociones y espiritualidad.</p>
+    </div>
+  </div>
+</section>
+
+<footer style="text-align:center; padding:30px; background:#eee;">
+  <p>© 2026 Psicología Integral | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>

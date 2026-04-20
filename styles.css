@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f8f9fb;
+  color: #333;
+  padding-bottom: 200px;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  border-bottom-color: #7b1fa2;
+  color: #ab47bc;
+}
+
+nav a.active {
+  border-bottom-color: #ab47bc;
+  color: #ab47bc;
+}
+
+header {
+  background: linear-gradient(135deg, #4a148c, #7b1fa2);
+  color: white;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 80px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+h1, h2 {
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(45deg, #7b1fa2, #ab47bc);
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* tarjetas */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  margin: 15px;
+}
+
+/* grid */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* imágenes */
+img {
+  width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
