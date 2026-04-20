@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicología Integral - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="servicios.html" class="nav-link">Servicios</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+    </nav>
+
+    <header>
+        <h1>Psicología Integral y Acompañamiento Espiritual</h1>
+        <p>Encuentra equilibrio emocional, propósito y bienestar desde un enfoque humano y espiritual.</p>
+        <a href="contacto.html" class="btn">Agenda tu consulta</a>
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80" alt="Psicología Integral">
+    </header>
+
+    <main>
+        <section>
+            <h2>Bienvenido</h2>
+            <p>Ofrecemos servicios de psicología integral que combinan herramientas profesionales con un enfoque espiritual. Nuestro objetivo es acompañarte en tu proceso de crecimiento personal y bienestar emocional.</p>
+            <p>Juntos exploraremos los aspectos emocionales, mentales y espirituales que conforman tu ser, creando un espacio seguro para la transformación y el autoconocimiento.</p>
+        </section>
+
+        <section>
+            <h2>Mis Servicios</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Terapia Psicológica</h3>
+                    <p>Acompañamiento profesional para ansiedad, estrés y crecimiento personal.</p>
+                </div>
+                <div class="card">
+                    <h3>Orientación Espiritual</h3>
+                    <p>Espacios de reflexión basados en valores, fe y propósito de vida.</p>
+                </div>
+                <div class="card">
+                    <h3>Consultoría Integral</h3>
+                    <p>Un enfoque completo entre mente, emociones y espiritualidad.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Sobre mí</h2>
+            <p>Soy profesional en psicología con formación en teología y filosofía. Mi enfoque integra ciencia y espiritualidad para ayudarte a encontrar claridad, equilibrio y sentido en tu vida.</p>
+            <a href="servicios.html" class="btn">Conocer más servicios</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Psicología Integral | Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if(link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
