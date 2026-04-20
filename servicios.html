@@ -3,54 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicios</title>
+    <title>Servicios - Psicología Integral</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
+    <nav>
+        <a href="index.html" class="nav-link">Inicio</a>
+        <a href="servicios.html" class="nav-link">Servicios</a>
+        <a href="contacto.html" class="nav-link">Contacto</a>
+    </nav>
 
-<nav>
-  <a href="index.html" class="nav-link">Inicio</a>
-  <a href="sobre-mi.html" class="nav-link">Sobre mí</a>
-  <a href="servicios.html" class="nav-link">Servicios</a>
-  <a href="contacto.html" class="nav-link">Contacto</a>
-</nav>
-<script>
-  document.querySelectorAll('.nav-link').forEach(link => {
-      if(link.href === window.location.href) {
-          link.classList.add('active');
-      }
-  });
-</script>
+    <header>
+        <h1>Psicología Integral y Acompañamiento Espiritual</h1>
+        <p>Encuentra equilibrio emocional, propósito y bienestar desde un enfoque humano y espiritual.</p>
+        <a href="contacto.html" class="btn">Agenda tu consulta</a>
+        <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=600&q=80" alt="Psicología Integral">
+    </header>
 
-<header>
-  <h1>Psicología Integral y Acompañamiento Espiritual</h1>
-  <p>Encuentra equilibrio emocional, propósito y bienestar desde un enfoque humano y espiritual.</p>
-  <a href="contacto.html" class="btn">Agenda tu consulta</a>
-  <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773" alt="Psicología Integral">
-</header>
+    <main>
+        <section>
+            <h2>Servicios Disponibles</h2>
+            <p>Ofrezco diferentes modalidades de atención diseñadas para tus necesidades específicas:</p>
+        </section>
 
-<section>
-  <h2>Servicios</h2>
-  <div class="grid">
-    <div class="card">
-      <h3>Terapia Psicológica</h3>
-      <p>Acompañamiento profesional para ansiedad, estrés y crecimiento personal.</p>
-    </div>
-    <div class="card">
-      <h3>Orientación Espiritual</h3>
-      <p>Espacios de reflexión basados en valores, fe y propósito de vida.</p>
-    </div>
-    <div class="card">
-      <h3>Consultoría Integral</h3>
-      <p>Un enfoque completo entre mente, emociones y espiritualidad.</p>
-    </div>
-  </div>
-</section>
+        <section>
+            <h3>Sesiones de Acompañamiento Psicológico</h3>
+            <p>Espacio seguro y confidencial donde exploramos tus emociones, pensamientos y comportamientos. Utilizo enfoques terapéuticos integrales que combinan psicología con una visión espiritual.</p>
+            <ul style="margin-left: 2rem; margin-top: 1rem;">
+                <li><strong>Duración:</strong> 50 minutos</li>
+                <li><strong>Frecuencia:</strong> Semanal o quincenal según necesidad</li>
+                <li><strong>Modalidad:</strong> Presencial o virtual</li>
+            </ul>
+        </section>
 
-<footer style="text-align:center; padding:30px; background:#eee;">
-  <p>© 2026 Psicología Integral | Todos los derechos reservados</p>
-</footer>
+        <section>
+            <h3>Orientación Espiritual</h3>
+            <p>Acompañamiento en tu camino espiritual, ayudándote a encontrar significado, propósito y conexión con lo divino en tu vida cotidiana.</p>
+            <ul style="margin-left: 2rem; margin-top: 1rem;">
+                <li><strong>Duración:</strong> 45-60 minutos</li>
+                <li><strong>Frecuencia:</strong> Según tu necesidad</li>
+                <li><strong>Modalidad:</strong> Presencial o virtual</li>
+            </ul>
+        </section>
 
+        <section>
+            <h3>Procesos de Crecimiento Personal</h3>
+            <p>Programas personalizados para desarrollar habilidades, superar limitaciones y alcanzar tu máximo potencial humano y espiritual.</p>
+            <ul style="margin-left: 2rem; margin-top: 1rem;">
+                <li><strong>Duración:</strong> 60-90 minutos por sesión</li>
+                <li><strong>Frecuencia:</strong> Semanal</li>
+                <li><strong>Modalidad:</strong> Presencial o virtual</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Charlas y Programas para Comunidades</h3>
+            <p>Conferencias, talleres y programas grupales para iglesias, organizaciones y comunidades interesadas en crecimiento espiritual y emocional.</p>
+            <a href="contacto.html" class="btn">Solicitar información</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Psicología Integral | Todos los derechos reservados</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.nav-link').forEach(link => {
+            if(link.href === window.location.href) {
+                link.classList.add('active');
+            }
+        });
+    </script>
 </body>
 </html>
